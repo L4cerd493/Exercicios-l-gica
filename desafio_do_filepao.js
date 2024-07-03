@@ -21,31 +21,33 @@
 //"O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 const nome = "rodolfo";
-let quantidadeXP = 1000
+let  nivel = " "
+let quantidadeXP = 3350
 
-switch(quantidadeXP) {
-    case  1000 :
+
+switch(true) {
+    case  quantidadeXP <= 1000 :
         console.log("O Herói de nome " + nome + " está no nível de Ferro");
         break;
-    case 1001 < 2000 :
+    case quantidadeXP == 1001 || quantidadeXP <= 2000 :
         console.log("O Herói de nome " + nome + " está no nível de Bronze");
         break;
-    case 2001 < 5000 :
+    case quantidadeXP == 2001 || quantidadeXP <= 5000 :
         console.log("O Herói de nome " + nome + " está no nível de Prata");
         break;
-    case 5001 < 7000:
+    case quantidadeXP == 5001 || quantidadeXP <= 7000:
         console.log("O Herói de nome " + nome + " está no nível de Ouro");
         break;
-    case 7001 < 8000:
+    case quantidadeXP == 7001 || quantidadeXP <= 8000:
         console.log("O Herói de nome " + nome + " está no nível de Platina");
         break;
-    case 8001 < 9000:
+    case quantidadeXP == 8001 || quantidadeXP <= 9000:
         console.log("O Herói de nome " + nome + " está no nível de Ascendente");
         break;
-    case 9001 < 10000:
+    case quantidadeXP == 9001 || quantidadeXP <= 10000:
         console.log("O Herói de nome " + nome + " está no nível de Imortal");
         break;
-    case 10001:
+    case quantidadeXP >= 10001:
         console.log("O Herói de nome " + nome + " está no nível de Radiante" );
         break;
     
