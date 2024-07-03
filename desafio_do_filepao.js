@@ -21,8 +21,7 @@
 //"O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 const nome = "rodolfo";
-let  nivel = " "
-let quantidadeXP = 3350
+let quantidadeXP = 9950
 
 
 switch(true) {
